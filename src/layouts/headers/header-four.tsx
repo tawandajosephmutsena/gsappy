@@ -40,7 +40,7 @@ export default function HeaderFour() {
                 <div className="tp-header-3-menu-wrap text-center">
                   <div className="tp-header-3-menu-box d-inline-flex align-items-center justify-content-between">
                     <div className="tp-header-3-menu header-main-menu">
-                      <nav className="tp-main-menu-content">
+                      <nav className="tp-main-menu-content p-relative">
                         {/* header menus */}
                         <HeaderMenus />
                         {/* header menus */}

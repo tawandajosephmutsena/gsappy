@@ -1,6 +1,5 @@
 'use client'
 import { useEffect, useRef, useState } from "react";
-import $ from "jquery";
 
 
 const useSticky = () => {
@@ -38,18 +37,20 @@ const useSticky = () => {
     });
   };
 
-  function adjustMenuBackground() {
-    if ($('.tp-header-3-area').length > 0) {
-      const menuBox = $('.tp-header-3-menu-box');
-      const menuBoxWidth = menuBox.width()!;
-      const menuBoxHeight = menuBox.height()!;
-      $('.menu-bg').css({
-        'width': menuBoxWidth + 46,
-        'height': menuBoxHeight,
-        'left': menuBox.offset()!.left
-      })
+  const adjustMenuBackground = () => {
+    const headerArea = document.querySelector('.tp-header-3-area');
+    if (headerArea) {
+      const menuBox = document.querySelector('.tp-header-3-menu-box') as HTMLElement;
+      if (menuBox) {
+        const menuBg = document.querySelector('.menu-bg') as HTMLElement;
+        if (menuBg) {
+          menuBg.style.width = `${menuBox.offsetWidth + 46}px`;
+          menuBg.style.height = `${menuBox.offsetHeight}px`;
+          menuBg.style.left = `${menuBox.offsetLeft}px`;
+        }
+      }
     }
-  }
+  };
   
 
 

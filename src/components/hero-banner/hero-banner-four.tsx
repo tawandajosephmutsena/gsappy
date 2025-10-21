@@ -14,8 +14,8 @@ export default function HeroBannerFour() {
                 <span></span>
               </div>
               <h4 className="tp-hero-3-title tp_reveal_anim">
-                <span className="tp-reveal-line">A premium digital partner</span>
-                <span className="tp-reveal-line">for discerning brands.</span>
+                <span className="tp-reveal-line">Crafting Brands</span>
+                <span className="tp-reveal-line">That Impact.</span>
               </h4>
               <span className="tp-hero-3-category tp_reveal_anim">
               Branding & Identity / Web Design & Development / Social Media Management / Content & Email Marketing
