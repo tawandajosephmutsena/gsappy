@@ -16,13 +16,13 @@ export default function FooterFour() {
                   <h4 className="tp-footer-3-title">Website map</h4>
                   <div className="tp-footer-3-menu">
                     <ul>
-                      <li><a href="/">Home</a></li>
-                      <li><a href="/about-us">About Us</a></li>
-                      <li><a href="/digital-products">Digital Products</a></li>
-                      <li><a href="/service">Our Services</a></li>
-                      <li><a href="/portfolio-standard">Portfolio</a></li>
-                      <li><a href="/blog-modern">Blog</a></li>
-                      <li><a href="/contact">Contact</a></li>
+                      <li><Link href="/">Home</Link></li>
+                      <li><Link href="/about-us">About Us</Link></li>
+                      <li><Link href="/digital-products">Digital Products</Link></li>
+                      <li><Link href="/service">Our Services</Link></li>
+                      <li><Link href="/portfolio-standard">Portfolio</Link></li>
+                      <li><Link href="/blog-modern">Blog</Link></li>
+                      <li><Link href="/contact">Contact</Link></li>
                     </ul>
                   </div>
                 </div>
