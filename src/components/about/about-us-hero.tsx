@@ -35,12 +35,12 @@ export default function AboutUsHero() {
               data-stagger="0.08"
             >
               <span className="ab-inner-hero-subtitle">
-                Digital <br /> creative agency
+                RVM Studio <br /> About Us
               </span>
               <h1 className="ab-inner-hero-title tp-char-animation">
-                Building Digital Presence
+                We turn ideas into bold, beautiful brands.
               </h1>
-              <p>Digital experiences with maximum emotional impact</p>
+              <p>RVM Studio is a full-service creative and digital agency based in Brisbane, Australia.</p>
             </div>
           </div>
         </div>
@@ -52,10 +52,9 @@ export default function AboutUsHero() {
               data-stagger="0.08"
             >
               <p>
-                Liko develops, designs & delivers websites & creative campaigns
-                that drive results,
+                We blend design, technology, and storytelling to help businesses, creators, and communities express who they are — and where they&apos;re going.
               </p>
-               <a className="tp-btn-white-sm border-style" href="#">Our Story</a>
+               <a className="tp-btn-white-sm border-style" href="#about-info">Our Story</a>
             </div>
           </div>
         </div>

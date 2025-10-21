@@ -15,44 +15,44 @@ const award_data = [
   {
     id: 1,
     img: a_1,
-    subtitle: "x2",
-    title: "FWA, Site of the Day",
-    date: "Jun 24, 2024",
+    subtitle: "01",
+    title: "Authenticity: We design from real stories, not trends",
+    date: "Our Values",
   },
   {
     id: 2,
     img: a_2,
-    subtitle: "x3",
-    title: "Awwwards Interior Excellence",
-    date: "Nov 24, 2022",
+    subtitle: "02",
+    title: "Collaboration: Great work happens when ideas collide",
+    date: "Our Values",
   },
   {
     id: 3,
     img: a_3,
-    subtitle: "x1",
-    title: "Loki boundary pushing year in Review 2022",
-    date: "May 24, 2012",
+    subtitle: "03",
+    title: "Excellence: Details matter in pixels, print, and people",
+    date: "Our Values",
   },
   {
     id: 4,
     img: a_4,
-    subtitle: "x1",
-    title: "The New Liko Tools Website is Live.",
-    date: "Sep 10, 2021",
+    subtitle: "04",
+    title: "Community: Supporting emerging creatives and diversity",
+    date: "Our Values",
   },
   {
     id: 5,
     img: a_5,
-    subtitle: "x2",
-    title: "Digital Agencies Worldwide",
-    date: "Jun 12, 2021",
+    subtitle: "05",
+    title: "Featured collaborations with Brisbane cultural organisations",
+    date: "2024",
   },
   {
     id: 6,
     img: a_6,
-    subtitle: "x1",
-    title: "FWA, Site of the Day",
-    date: "Aug 18, 2022",
+    subtitle: "06",
+    title: "Partnership with Reveal Studios for digital solutions",
+    date: "2024",
   },
 ];
 
@@ -79,7 +79,7 @@ const AwardOne = ({cls="pt-125 pb-125",abStyle=false}: IProps) => {
               <div className="ab-award-title-sm">
                 <span>
                   <Leaf />
-                  Our Awards
+                  Our Values & Mission
                 </span>
               </div>
             )}

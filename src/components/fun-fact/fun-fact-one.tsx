@@ -5,26 +5,26 @@ import { Leaf } from "../svg";
 const counter_data = [
   {
     id: 1,
-    title: "PROJECTS COMPLETED",
-    count: 200,
+    title: "BRAND IDENTITIES LAUNCHED",
+    count: 40,
     text: "+",
   },
   {
     id: 2,
-    title: "YEARS OF EXPERIENCE",
-    count: 17,
+    title: "WEBSITES DESIGNED",
+    count: 25,
     text: "+",
   },
   {
     id: 3,
-    title: "TEAM MEMBERS",
-    count: 9,
+    title: "HAPPY CLIENTS",
+    count: 50,
     text: "+",
   },
   {
     id: 4,
-    title: "GROWING AGENCY",
-    count: 194,
+    title: "CLIENT SATISFACTION",
+    count: 100,
     text: "%",
   },
 ];
@@ -40,7 +40,7 @@ export default function FunFactOne() {
                 Fun Facts
               </span>
               <h4 className="ab-inner-funfact-title tp_title_anim">
-                Agency <br /> Snapshots
+                Our <br /> Achievements
               </h4>
             </div>
           </div>

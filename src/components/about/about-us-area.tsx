@@ -48,13 +48,14 @@ export default function AboutUsArea() {
             <div className="ab-about-content p-relative">
               <span>
                 <Hand />
-                Hi!
+                Our Story
               </span>
               <p className="tp-dropcap tp_fade_bottom">
-                We are a creative studio that specializes in providing
-                high-quality design and branding solutions to businesses and
-                individuals. Our team is composed of talented designers,
-                developers, and marketers.!
+                RVM Studio began with a simple idea: creativity should be purposeful.
+                Founded by a team of designers, strategists, and digital thinkers, we built RVM as a space where brands can grow through intelligent design and authentic storytelling.
+                From our home base in Brisbane&apos;s creative corridor, we collaborate with clients across Australia and beyond — delivering branding, web design, and content solutions that connect businesses with real people.
+                We&apos;ve worked with startups finding their voice, established brands refining their image, and community organisations amplifying their impact.
+                Every project is a partnership — built on curiosity, clarity, and craft.
               </p>
             </div>
           </div>
@@ -65,8 +66,8 @@ export default function AboutUsArea() {
               <div className="col-xl-5 col-lg-5 col-md-4 mb-40">
                 <div className="ab-about-category-title-box p-relative">
                   <h4 className="ab-about-category-title">
-                    Something <br />
-                    <span>WHAT I DO</span>
+                    What We <br />
+                    <span>DO</span>
                   </h4>
                   <Image
                     className="ab-about-shape-1 d-none d-md-block"
@@ -80,21 +81,21 @@ export default function AboutUsArea() {
                   <div className="col-xl-6 col-lg-6 col-md-6 mb-40">
                     <div className="ab-about-category-list category-space-1 tp_fade_bottom">
                       <ul>
-                        <li>Art direction</li>
-                        <li>Branding</li>
-                        <li>Content Production</li>
-                        <li>User Interface Design</li>
-                        <li>Animation</li>
+                        <li>Branding & Identity</li>
+                        <li>Web Design & Development</li>
+                        <li>Content & Social Media</li>
+                        <li>Creative Direction</li>
+                        <li>Photography & Video</li>
                       </ul>
                     </div>
                   </div>
                   <div className="col-xl-6 col-lg-6 col-md-6 mb-40">
                     <div className="ab-about-category-list category-space-2 tp_fade_bottom">
                       <ul>
-                        <li>Brand Identity</li>
-                        <li>User Interface</li>
-                        <li>User Experience</li>
-                        <li>Responsive Design</li>
+                        <li>Campaign Development</li>
+                        <li>Visual Languages</li>
+                        <li>Digital Strategy</li>
+                        <li>Brand Systems</li>
                       </ul>
                     </div>
                   </div>
