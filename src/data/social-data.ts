@@ -1,24 +1,23 @@
-
 const social_data = [
   {
     id:1,
-    icon:"fa-brands fa-facebook-f",
-    link:"https://www.facebook.com/"
+    icon:"fa-brands fa-instagram",
+    link:"https://instagram.com/RealValeryManyuchi"
   },
   {
     id:2,
-    icon:"fa-brands fa-twitter",
-    link:"https://www.twitter.com/"
+    icon:"fa-brands fa-tiktok",
+    link:"https://tiktok.com/@rvm_studio"
   },
   {
     id:3,
-    icon:"fa-brands fa-linkedin-in",
-    link:"https://www.linkedin.com/"
+    icon:"fa-brands fa-youtube",
+    link:"https://www.youtube.com/@rvmstudio"
   },
   {
     id:4,
-    icon:"fa-brands fa-vimeo-v",
-    link:"https://www.vimeo.com/"
+    icon:"fa-brands fa-facebook-f",
+    link:"https://www.facebook.com/rvmstudio"
   }
 ];
 

@@ -60,14 +60,14 @@ export default function HeaderFour() {
               <div className="col-xl-3 col-lg-6 col-md-6 col-6">
                 <div className="tp-header-3-right d-flex align-items-center justify-content-end">
                   <div className="tp-header-3-social d-none d-sm-block">
-                    <a href="#">
-                      <i className="fa-brands fa-twitter"></i>
-                    </a>
-                    <a href="#">
-                      <i className="fa-brands fa-facebook"></i>
-                    </a>
-                    <a href="#">
+                    <a href="https://instagram.com/RealValeryManyuchi" target="_blank" rel="noopener noreferrer">
                       <i className="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://tiktok.com/@rvm_studio" target="_blank" rel="noopener noreferrer">
+                      <i className="fa-brands fa-tiktok"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@rvmstudio" target="_blank" rel="noopener noreferrer">
+                      <i className="fa-brands fa-youtube"></i>
                     </a>
                   </div>
                   <button onClick={() => setOpenOffCanvas(true)} className="tp-header-3-bar tp-offcanvas-open-btn d-xl-none">

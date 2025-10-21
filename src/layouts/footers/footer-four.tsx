@@ -17,8 +17,11 @@ export default function FooterFour() {
                   <div className="tp-footer-3-menu">
                     <ul>
                       <li><a href="/">Home</a></li>
-                      <li><a href="/about">About</a></li>
-                      <li><a href="/blog">Blog</a></li>
+                      <li><a href="/about-us">About Us</a></li>
+                      <li><a href="/digital-products">Digital Products</a></li>
+                      <li><a href="/service">Our Services</a></li>
+                      <li><a href="/portfolio-standard">Portfolio</a></li>
+                      <li><a href="/blog-modern">Blog</a></li>
                       <li><a href="/contact">Contact</a></li>
                     </ul>
                   </div>
@@ -44,13 +47,13 @@ export default function FooterFour() {
                 <div className="tp-footer-3-logo-box">
                   <p className="mb-100">
                     Drop us a line say Hi! <br />
-                    we would love to hear from you
+                    We would love to hear from you
                   </p>
                   <Link className="tp-footer-3-logo p-relative" href="/">
                     <Image src={logo} alt="logo" />
                   </Link>
                   <p className="tp-footer-3-copyright">
-                    {new Date().getFullYear()} Themepure <br /> © All rights reserved
+                    {new Date().getFullYear()} RVM Studio <br /> © All rights reserved
                   </p>
                 </div>
               </div>
@@ -61,22 +64,22 @@ export default function FooterFour() {
                   <h4 className="tp-footer-3-title">Contact</h4>
                   <div className="tp-footer-2-contact-item">
                     <span>
-                      <a href="https://www.google.com/maps/@23.8223596,90.3656686,15z?entry=ttu"
-                      target="_blank">740 NEW SOUTH HEAD RD, TRIPLE BAY SWFW 3108, NEW YORK</a>
+                      <a href="https://www.google.com/maps/place/Goodna+QLD+4300/@-27.6116,152.8986,13z"
+                      target="_blank">Goodna, Brisbane, QLD, Australia, 4300</a>
                       </span>
                   </div>
                   <div className="tp-footer-2-contact-item">
-                    <span>P: <a href="tel:+725214456">+ 725 214 456</a></span>
-                    <span>E: <a href="mailto:contact@liko.com">contact@liko.com</a></span>
+                    <span>P: <a href="tel:+61493031463">+61 493 031 463</a></span>
+                    <span>E: <a href="mailto:real@rvmstudio.org">real@rvmstudio.org</a></span>
                   </div>
                 </div>
                 <div className="tp-footer-3-widget">
                   <h4 className="tp-footer-3-title">Follow</h4>
                   <div className="tp-footer-3-social">
-                    <a href="#"><i className="fa-brands fa-twitter"></i></a>
-                    <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
-                    <a href="#"><i className="fa-brands fa-instagram"></i></a>
-                    <a href="#"><i className="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://instagram.com/RealValeryManyuchi" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-instagram"></i></a>
+                    <a href="https://tiktok.com/@rvm_studio" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-tiktok"></i></a>
+                    <a href="https://www.youtube.com/@rvmstudio" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.facebook.com/rvmstudio" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-facebook-f"></i></a>
                   </div>
                 </div>
               </div>
