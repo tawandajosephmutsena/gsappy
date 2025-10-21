@@ -9,20 +9,20 @@ import s_3 from "@/assets/img/home-01/service/service-icon-3.png";
 const service_data = [
   {
     id: 1,
-    title: "Branding",
-    desc: "Branding is one of the most important ingredients for the success of any business.",
+    title: "Branding & Identity",
+    desc: "Build a memorable brand that reflects your mission, values, and voice.",
     icon: s_2,
   },
   {
     id: 2,
-    title: "Website design",
-    desc: "The perfect cocktail should still look and taste perfect no matter the size of the glass you serve it in.",
+    title: "Web Design & Development",
+    desc: "Custom, responsive websites built to inspire action and drive growth.",
     icon: s_1,
   },
   {
     id: 3,
-    title: "Marketing",
-    desc: "We take that same approach with the apps & websites we create. you go there because of the overall experience.",
+    title: "Photography & Visual Content",
+    desc: "Professional photo shoots to elevate your brand's look and feel.",
     icon: s_3,
   },
 ];

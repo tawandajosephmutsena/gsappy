@@ -14,52 +14,48 @@ const service_data = [
     id: 1,
     img: ser_img_1,
     subtitle: "Design Studio",
-    title: "Logos and branding",
-    text: "We create your graphic designs according to your budget and your needs. Reveal your brand image and capture your audience.",
+    title: "Branding & Identity",
+    text: "Build a memorable brand that reflects your mission, values, and voice. Logos, visual identity systems, brand messaging & more.",
     lists: [
-      "Logo Design",
-      "Graphic identity",
-      "Business communication",
-      "Web design",
+      "Concept",
+      "Design",
+      "Brand Strategy",
     ],
   },
   {
     id: 2,
     img: ser_img_2,
     subtitle: "Design Studio",
-    title: "Web Design",
-    text: "We create your graphic designs according to your budget and your needs. Reveal your brand image and capture your audience.",
+    title: "Web Design & Development",
+    text: "Custom, responsive websites built to inspire action and drive growth. From landing pages to full-scale websites — we've got it covered.",
     lists: [
-      "Logo Design",
-      "Graphic identity",
-      "Business communication",
-      "Web design",
+      "Concept",
+      "Design",
+      "Maintenance",
     ],
   },
   {
     id: 3,
     img: ser_img_3,
     subtitle: "Design Studio",
-    title: "Motion-Design",
-    text: "We create your graphic designs according to your budget and your needs. Reveal your brand image and capture your audience.",
+    title: "Photography & Visual Content",
+    text: "Professional photo shoots to elevate your brand's look and feel. Authentic visuals that tell your brand story and elevate your presence.",
     lists: [
-      "Logo Design",
-      "Graphic identity",
-      "Business communication",
-      "Web design",
+      "Concept",
+      "Design",
+      "Production",
     ],
   },
   {
     id: 4,
     img: ser_img_4,
     subtitle: "Design Studio",
-    title: "Web Analytics",
-    text: "We create your graphic designs according to your budget and your needs. Reveal your brand image and capture your audience.",
+    title: "Social Media Management",
+    text: "Strategic content and platform management to amplify your brand. Content creation, scheduling, platform management & strategy.",
     lists: [
-      "Logo Design",
-      "Graphic identity",
-      "Business communication",
-      "Web design",
+      "Content Creation",
+      "Platform Management",
+      "Strategy",
     ],
   },
 ];
@@ -104,17 +100,7 @@ export default function ServiceSix() {
                       <div className="sv-service-btn">
                         <Link
                           className="tp-btn-zikzak zikzak-inner p-relative"
-                          href={
-                            item.title.toLowerCase().includes("web")
-                              ? "/service/webdesign"
-                              : item.title.toLowerCase().includes("brand")
-                              ? "/service/branding"
-                              : item.title.toLowerCase().includes("motion")
-                              ? "/service/photography"
-                              : item.title.toLowerCase().includes("analytics")
-                              ? "/service/social-media"
-                              : "/service-details"
-                          }
+                          href={`/service/${item.title.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-')}`}
                         >
                           <span className="zikzak-content">
                             See <br /> Details

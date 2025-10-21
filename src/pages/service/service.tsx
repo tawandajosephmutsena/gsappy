@@ -57,9 +57,9 @@ const ServiceMain = () => {
                         Services
                       </span>
                       <h4 className="tp-service-5-title">
-                        We strongly believe that only design reinforced by{" "}
+                        Comprehensive digital solutions to elevate your brand{" "}
                         <br />
-                        strategy can provide real results.
+                        and drive meaningful growth.
                       </h4>
                     </div>
                   </div>
