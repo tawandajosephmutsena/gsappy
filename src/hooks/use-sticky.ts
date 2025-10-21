@@ -47,6 +47,8 @@ const useSticky = () => {
           menuBg.style.width = `${menuBox.offsetWidth + 46}px`;
           menuBg.style.height = `${menuBox.offsetHeight}px`;
           menuBg.style.left = `${menuBox.offsetLeft}px`;
+          menuBg.style.top = `${menuBox.offsetTop}px`;
+          menuBg.style.pointerEvents = 'none';
         }
       }
     }
@@ -55,12 +57,37 @@ const useSticky = () => {
 
 
   useEffect(() => {
+    // Call adjustMenuBackground immediately and after render
+    const adjustWithDelay = () => {
+      requestAnimationFrame(() => {
+        adjustMenuBackground();
+        // Call again after a short delay to ensure fonts are loaded
+        setTimeout(adjustMenuBackground, 100);
+      });
+    };
+    
+    adjustWithDelay();
+    
     window.addEventListener("scroll", stickyHeader);
+    window.addEventListener('resize', adjustMenuBackground);
 
     return (): void => {
       window.removeEventListener("scroll", stickyHeader);
+      window.removeEventListener('resize', adjustMenuBackground);
     };
   }, []);
+
+  // Adjust menu background when sticky state changes
+  useEffect(() => {
+    // Use a small delay to ensure DOM has updated after sticky state change
+    const timer = setTimeout(() => {
+      requestAnimationFrame(() => {
+        adjustMenuBackground();
+      });
+    }, 50);
+    
+    return () => clearTimeout(timer);
+  }, [sticky]);
 
   return {
     sticky,
