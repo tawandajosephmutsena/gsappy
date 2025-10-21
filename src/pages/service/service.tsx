@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother, SplitText);
 
 // internal imports
 import Wrapper from "@/layouts/wrapper";
-import HeaderEleven from "@/layouts/headers/header-eleven";
+import HeaderFour from "@/layouts/headers/header-four";
 import { ServiceItems } from "@/components/service/service-five";
 import ServiceHero from "@/components/service/service-hero";
 import ServiceSix from "@/components/service/service-six";
@@ -16,7 +16,7 @@ import { BrandItems } from "@/components/brand/brand-two";
 import LineImgSlider from "@/components/line-text/line-img-slider";
 import BigText from "@/components/big-text";
 import { Leaf } from "@/components/svg";
-import FooterTwo from "@/layouts/footers/footer-two";
+import FooterFour from "@/layouts/footers/footer-four";
 // animation
 import { charAnimation, fadeAnimation } from "@/utils/title-animation";
 import { servicePanel } from "@/utils/panel-animation";
@@ -36,7 +36,7 @@ const ServiceMain = () => {
   return (
     <Wrapper>
       {/* header area start */}
-      <HeaderEleven />
+      <HeaderFour />
       {/* header area end */}
 
       <div id="smooth-wrapper">
@@ -95,7 +95,7 @@ const ServiceMain = () => {
           </main>
 
           {/* footer area */}
-          <FooterTwo topCls="" />
+          <FooterFour />
           {/* footer area */}
         </div>
       </div>
