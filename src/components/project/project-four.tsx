@@ -19,14 +19,14 @@ const project_data = [
     id: 1,
     img_1: port_1,
     img_2: port_2,
-    meta: "DEC 2024 . Creative",
+    meta: "DEC 2022 . Creative",
     title: "Ecobank",
   },
   {
     id: 2,
     img_1: port_3,
     img_2: port_4,
-    meta: "NOV 2024 . Creative",
+    meta: "NOV 2023 . Creative",
     title: "DoBusiness Zimbabwe",
   },
   {
@@ -40,8 +40,8 @@ const project_data = [
     id: 4,
     img_1: port_7,
     img_2: port_8,
-    meta: "SEP 2024 . Creative",
-    title: "Fashion sentence",
+    meta: "MAY 2025 . Migrant",
+    title: "Success",
   },
 ];
 
@@ -63,7 +63,7 @@ export default function ProjectFour({ style_2 = false }: IProps) {
                 <div className="tp-project-3-btn-box">
                   <Link
                     className="tp-btn-zikzak p-relative"
-                    href="/portfolio-wrapper"
+                    href="/portfolio-standard"
                   >
                     <span className="zikzak-content">
                       See <br /> All Project

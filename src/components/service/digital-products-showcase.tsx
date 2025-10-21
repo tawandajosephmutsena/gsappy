@@ -1,7 +1,4 @@
-'use client';
 import React from "react";
-import { SwiperOptions } from "swiper/types";
-import { Swiper, SwiperSlide } from "swiper/react";
 
 // products data
 const products_data = [
@@ -55,84 +52,43 @@ const products_data = [
   },
 ];
 
-// slider setting
-const slider_setting: SwiperOptions = {
-  slidesPerView: 4,
-  loop: true,
-  autoplay: false,
-  spaceBetween: 60,
-  speed: 1000,
-  breakpoints: {
-    "1400": {
-      slidesPerView: 4,
-    },
-    "1200": {
-      slidesPerView: 3,
-    },
-    "992": {
-      slidesPerView: 2,
-    },
-    "768": {
-      slidesPerView: 2,
-      spaceBetween: 20,
-    },
-    "576": {
-      slidesPerView: 1,
-      spaceBetween: 20,
-    },
-    "0": {
-      slidesPerView: 1,
-      spaceBetween: 20,
-    },
-  },
-};
-
 export default function DigitalProductsShowcase() {
   return (
-    <div
-      className="tp-service-4-area pt-120 pb-170 fix"
-      data-background="assets/img/home-04/brand/overly.png"
-      style={{ backgroundImage: "url(/assets/img/home-04/brand/overly.png)" }}
-    >
+    <div className="tp-service-3-area pt-130 pb-130">
       <div className="container">
-        <div className="tp-service-4-title-wrap">
-          <div className="row align-items-end">
-            <div className="col-xl-12">
-              <div className="tp-service-4-title-box tp_fade_bottom">
-                <h4 className="tp-service-4-title">
-                  Our Digital Products & Services
-                </h4>
-              </div>
+        <div className="row">
+          <div className="col-xl-12">
+            <div className="tp-service-3-title-box mb-60">
+              <h4 className="tp-section-title-90 tp_fade_bottom">
+                Our Digital Products & Services
+              </h4>
             </div>
           </div>
         </div>
-      </div>
-      <div className="tp-service-4-wrap">
-        <Swiper
-          {...slider_setting}
-          className="swiper-container tp-service-4-slider-active"
-        >
-          {products_data.map((item) => (
-            <SwiperSlide key={item.id}>
-              <div
-                className="tp-service-4-item"
-                style={{
-                  backgroundImage: "url(/assets/img/home-04/hero/overly.png)",
-                }}
-              >
-                <div className="tp-service-4-icon" style={{ fontSize: "48px" }}>
-                  {item.icon}
+
+        {products_data.map((item) => (
+          <div key={item.id} className="tp-service-3-wrap tp_fade_bottom">
+            <div className="row align-items-start">
+              <div className="col-xl-2 col-lg-2 col-md-12">
+                <div className="tp-service-3-icon-box">
+                  <span style={{ fontSize: "48px" }}>{item.icon}</span>
                 </div>
-                <div className="tp-service-4-content">
-                  <h4 className="tp-service-4-title-sm">
+              </div>
+              <div className="col-xl-4 col-lg-4 col-md-12">
+                <div className="tp-service-3-title-box">
+                  <h4 className="tp-service-3-title">
                     {item.title}
                   </h4>
+                </div>
+              </div>
+              <div className="col-xl-6 col-lg-6 col-md-12">
+                <div className="tp-service-3-content">
                   <p>{item.description}</p>
                 </div>
               </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );

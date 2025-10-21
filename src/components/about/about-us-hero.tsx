@@ -38,7 +38,7 @@ export default function AboutUsHero() {
                 RVM Studio <br /> About Us
               </span>
               <h1 className="ab-inner-hero-title tp-char-animation">
-                We turn ideas into bold, beautiful brands.
+                Turning ideas into bold brands.
               </h1>
               <p>RVM Studio is a full-service creative and digital agency based in Brisbane, Australia.</p>
             </div>

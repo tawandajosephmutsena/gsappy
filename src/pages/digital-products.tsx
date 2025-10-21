@@ -118,17 +118,7 @@ const DigitalProductsMain = () => {
             <LineTextTwo />
             {/* marquee text */}
 
-            {/* portfolio area */}
-            <ProjectThree />
-            {/* portfolio area */}
-
-            {/* brand area */}
-            <BrandTwo />
-            {/* brand area */}
-
-            {/* team area */}
-            <TeamTwo />
-            {/* team area */}
+       
           </main>
 
           {/* footer area */}
