@@ -71,7 +71,7 @@ export default function ServiceFour() {
               <div className="col-xl-3 col-lg-3">
                 <div className="tp-service-3-title-box">
                   <h4 className="tp-service-3-title">
-                    <Link href="/service">{item.title}</Link>
+                    <Link href={`/service/${item.title.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-')}`}>{item.title}</Link>
                   </h4>
                 </div>
               </div>
@@ -89,7 +89,7 @@ export default function ServiceFour() {
                 <div className="tp-service-3-btn-box text-start text-md-end">
                   <Link
                     className="tp-btn-zikzak-sm p-relative"
-                    href="/service"
+                    href={`/service/${item.title.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-')}`}
                   >
                     <span className="zikzak-content">
                       See <br /> Details
