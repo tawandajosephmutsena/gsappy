@@ -4,7 +4,7 @@ import TeamDetailsMain from "@/pages/team/team-details";
 import team_data from "@/data/team-data";
 
 export const metadata: Metadata = {
-  title: "Liko - Team Details page",
+  title: "RVM Studio - Team Details page",
 };
 
 export default function TeamDetailsPage({params}: {params: { id: string }}) {

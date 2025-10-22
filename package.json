@@ -1,6 +1,6 @@
 {
-  "name": "liko-next-js",
-  "version": "0.1.0",
+  "name": "rvm-studio",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",

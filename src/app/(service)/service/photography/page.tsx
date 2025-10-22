@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import ServiceDetailsMain from "@/pages/service/service-details";
 
 export const metadata: Metadata = {
-  title: "Liko - Photography Service Details",
+  title: "RVM Studio - Photography Service Details",
 };
 
 const PhotographyServicePage = () => {

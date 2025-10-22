@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import BrandMain from "@/pages/brand/brand-main";
 
 export const metadata: Metadata = {
-  title: "Liko - Brand page",
+  title: "RVM Studio - Brand page",
 };
 
 const BrandPage = () => {

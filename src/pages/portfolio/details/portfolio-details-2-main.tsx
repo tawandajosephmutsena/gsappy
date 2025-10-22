@@ -105,7 +105,7 @@ const PortfolioDetailsTwoMain = () => {
                                  <div className="project-details-1-info-wrap">
                                     <div className="project-details-1-info">
                                        <span>Client</span>
-                                       <h4>LikoTheme</h4>
+                                       <h4>RVM Studio</h4>
                                     </div>
                                     <div className="project-details-1-info">
                                        <span>Date</span>

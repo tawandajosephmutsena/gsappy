@@ -4,7 +4,7 @@ import product_data from "@/data/product-data";
 import ShopDetailsMain from "@/pages/shop/shop-details-main";
 
 export const metadata: Metadata = {
-  title: "Liko - Shop Details page",
+  title: "RVM Studio - Shop Details page",
 };
 
 export default function ShopDetailsPage({params}:{params:{id:string}}) {

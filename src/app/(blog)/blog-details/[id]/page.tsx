@@ -3,7 +3,7 @@ import { blog_data } from "@/data/blog-data";
 import BlogDetailsMain from "@/pages/blog/blog-details";
 
 export const metadata: Metadata = {
-  title: "Liko - Blog Details page",
+  title: "RVM Studio - Blog Details page",
 };
 
 export default function BlogDetailsPage({params}:{params:{id:string}}) {

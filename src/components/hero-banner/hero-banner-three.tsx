@@ -48,12 +48,12 @@ export default function HeroBannerThree() {
                   <span>
                     <i
                       data-purecounter-duration="1"
-                      data-purecounter-end="18"
+                      data-purecounter-end="100"
                       className="purecounter"
                     >
-                      18
+                      100
                     </i>
-                    k
+                    +
                   </span>
                   <p>
                     Projects completed <br /> successfully

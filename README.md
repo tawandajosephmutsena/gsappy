@@ -1,4 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# RVM Studio - Creative Agency Portfolio
+
+This is the official website for RVM Studio, a professional creative agency specializing in branding, web design, photography, and digital solutions.
+
+Built with [Next.js](https://nextjs.org/) 14 and TypeScript.
 
 ## Getting Started
 
